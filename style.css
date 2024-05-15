@@ -62,8 +62,8 @@ input {
 }
 
 button {
-    width: 5vw;
-    height: 40px;
+    width: 50%;
+    height: 5vh;
     flex-wrap: wrap;
     border-radius: 5px;
     display: flex;
@@ -76,4 +76,10 @@ button {
 .material-icons{
     color: white;
 }
+
+#link{
+    user-select: none;
+    width: 95%;
+}
+
 
