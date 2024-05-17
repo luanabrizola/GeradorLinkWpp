@@ -52,10 +52,16 @@ numero.addEventListener('input', ()=> {
   validarNumero()
 })
 
+function handleinput (){
+  mensagem.textContent = ""
+  link.style.border = 0
+  link.innerText = ""
+}
+
 
 btnLink.addEventListener('click', handlebtnLink);
 txtSend.addEventListener('click', handletxtSend);
 link.addEventListener('click', copiarLink)
-
+numero.addEventListener('click', handleinput)
 btnLink.disabled = true;
 txtSend.disabled = true;
